@@ -1,16 +1,16 @@
 
-#📰 News Text Classification using Deep Learning
+# 📰 News Text Classification using Deep Learning
 📌 Overview
 
 This project implements a deep learning model to classify news articles into predefined categories (e.g., Politics, Sports, Technology, Business, Entertainment). It leverages natural language processing (NLP) techniques and neural networks to automatically understand and categorize textual data.
 
-##🚀 Features
+## 🚀 Features
 Text preprocessing (tokenization, padding, cleaning)
 Deep learning model (LSTM / GRU / CNN / Transformer)
 Multi-class classification
 Model evaluation with accuracy, precision, recall, F1-score
 Easy inference on custom news text
-##🧠 Model Architecture
+## 🧠 Model Architecture
 
 The model architecture may include:
 
@@ -23,26 +23,8 @@ or
 Transformer-based encoder
 Fully Connected Layers
 Softmax Output Layer
-📂 Project Structure
-├── data/
-│   ├── train.csv
-│   ├── test.csv
-│
-├── models/
-│   └── model.h5 / model.pt
-│
-├── notebooks/
-│   └── exploration.ipynb
-│
-├── src/
-│   ├── preprocess.py
-│   ├── train.py
-│   ├── evaluate.py
-│   ├── predict.py
-│
-├── requirements.txt
-└── README.md
-##📊 Dataset
+
+## 📊 Dataset
 Source: Public datasets (e.g., AG News, BBC News dataset, Kaggle datasets)
 Format: CSV with columns:
 text: News content
